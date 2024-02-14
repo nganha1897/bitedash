@@ -19,32 +19,32 @@ The iOS version can be downloaded at: [https://apps.apple.com/us/app/bitedash/id
 ### User Authentication
 Users are required to create an account and sign in in order to access the app and place orders. If users forget their password, an email is sent to users' email address with a one-time password (OTP) to reset the password.
 
-![Login image](src/assets/demo/login.png)
+![Login image](frontend/src/assets/demo/login.png)
 
 
 ### Restaurant & Menu Listings
 After authentication, users can view a list of restaurants near their current location in the home tab. Users can click on a restaurant to view its menu and order food. 
 
-![Home image](src/assets/demo/home.png)
+![Home image](frontend/src/assets/demo/home.png)
 
 
-![Menu image](src/assets/demo/menu.png)
+![Menu image](frontend/src/assets/demo/menu.png)
 
 
 ### Cart Overview
 In the cart tab, users can view the list of chosen food items and update the details such as quantity and instructions. Users can specify the delivery address. Currently, payment option is not configured to publish the app to the app stores. When users click payment, orders will automatically go through. 
 
 
-![Cart image](src/assets/demo/cart.png)
+![Cart image](frontend/src/assets/demo/cart.png)
 
 
 ### Account Overview
 In the account tab, users can view and update their account details including addresses. Users can see a list of their successful orders.
 
-![Account image](src/assets/demo/account.png)
+![Account image](frontend/src/assets/demo/account.png)
 
 
 ### Admin Dashboard
 Only admins have access to the admin dashboard, where they can update banners, restaurant, and menu details. 
 
-![Admin image](src/assets/demo/admin.png)
+![Admin image](frontend/src/assets/demo/admin.png)
