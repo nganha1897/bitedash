@@ -5,6 +5,8 @@ This application uses MEAN stack and Ionic framework to build a cross-platform m
 
 The iOS version can be downloaded at: [https://apps.apple.com/us/app/bitedash/id6477850116]
 
+The backend is deployed to Heroku at: [https://feed-me-app-4038e85fb061.herokuapp.com]
+
 ## Technologies
 - MongoDB: NoSQL database to store app data
 - Express.js: web framework for building RESTful APIs
@@ -13,6 +15,7 @@ The iOS version can be downloaded at: [https://apps.apple.com/us/app/bitedash/id
 - Ionic: cross-platform mobile development framework for iOS and Android
 - SendGrid: email platform for sending confirmation emails to users. 
 - Google Maps API: mat platform for accessing users' location and finding nearby restaurants 
+- Cloudinary: platform for storing app's images
 
 ## Features
 
