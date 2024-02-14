@@ -1,0 +1,30 @@
+<ion-list lines="none">
+  <ion-list-header class="ion-margin">
+    <ion-label>Enter Verfication Code</ion-label>
+  </ion-list-header>
+
+  <ion-item class="ion-margin">
+    <ion-label>
+      <div align="center">
+        <app-otp-input
+          (length)="getOtpLength($event)"
+          (otp)="onOtpChange($event)"></app-otp-input>
+      </div>
+    </ion-label>
+  </ion-item>
+
+  <ion-row class="ion-margin-horizontal ion-padding-horizontal">
+    <ion-col size="6">
+      <ion-button fill="clear" expand="block" size="large" color="secondary" (click)="resend()">
+        <ion-text>RESEND</ion-text>
+      </ion-button>
+    </ion-col>
+    <ion-col size="6">
+      <ion-button color="primary" expand="block" size="large" shape="round" (click)="verify()">
+        <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+        <ion-text>VERIFY</ion-text>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+
+</ion-list>
