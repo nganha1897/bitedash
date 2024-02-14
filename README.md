@@ -28,7 +28,7 @@ Users are required to create an account and sign in in order to access the app a
 ### Restaurant & Menu Listings
 After authentication, users can view a list of restaurants near their current location in the home tab. Users can click on a restaurant to view its menu and order food. 
 
-![Home image](frontend/src/assets/demo/home.png)    ![Menu image](frontend/src/assets/demo/menu.png)
+![Home image](frontend/src/assets/demo/home.png)             ![Menu image](frontend/src/assets/demo/menu.png)
 
 
 ### Cart Overview
