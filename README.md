@@ -5,16 +5,15 @@ This application uses MEAN stack and Ionic framework to build a cross-platform m
 
 The iOS version can be downloaded at: [https://apps.apple.com/us/app/bitedash/id6477850116]
 
-The backend is deployed to Heroku at: [https://feed-me-app-4038e85fb061.herokuapp.com]
-
 ## Technologies
 - MongoDB: NoSQL database to store app data
-- Express.js: web framework for building RESTful APIs
+- Express.js: backend framework
 - Angular: frontend framework (used with Typescript)
 - Node.js: application runtime
-- Ionic: cross-platform mobile development framework for iOS and Android
+- Ionic: cross-platform mobile development framework
+- Capacitor: native runtime platform for iOS and Android deployment and API integration. This project uses Camera and Geolocation APIs.
 - SendGrid: email platform for sending confirmation emails to users. 
-- Google Maps API: mat platform for accessing users' location and finding nearby restaurants 
+- Google Maps API: map platform for accessing users' location and finding nearby restaurants 
 - Cloudinary: platform for storing app's images
 
 ## Features
@@ -28,7 +27,7 @@ Users are required to create an account and sign in in order to access the app a
 ### Restaurant & Menu Listings
 After authentication, users can view a list of restaurants near their current location in the home tab. Users can click on a restaurant to view its menu and order food. 
 
-![Home image](frontend/src/assets/demo/home.png)             ![Menu image](frontend/src/assets/demo/menu.png)
+![Home image](frontend/src/assets/demo/home.png) ![Menu image](frontend/src/assets/demo/menu.png)
 
 
 ### Cart Overview
