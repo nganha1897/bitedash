@@ -4,6 +4,7 @@
 This application uses MEAN stack and Ionic framework to build a cross-platform mobile app for food ordering. 
 
 The iOS version can be downloaded at: [https://apps.apple.com/us/app/bitedash/id6477850116]
+The Android version can be downloaded at: [https://play.google.com/store/apps/details?id=com.ha.biteDash]
 
 ## Technologies
 - MongoDB: NoSQL database to store app data
